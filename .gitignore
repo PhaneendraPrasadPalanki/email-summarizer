@@ -1,0 +1,10 @@
+# Go
+bin/
+*.exe
+*.out
+
+# Sensitive info
+token.json
+credentials.json
+summaries/
+.env
