@@ -1,0 +1,23 @@
+📦 HOW TO RUN - Email Summarizer (GoLang)
+
+1. Clone the repository:
+   git clone https://github.com/your-username/email-summarizer.git
+   cd email-summarizer
+
+2. Install dependencies:
+   go mod tidy
+
+3. Add your credentials.json:
+   - Create an OAuth2 client in Google Cloud Console.
+   - Enable Gmail API.
+   - Download credentials.json and place it in the root folder.
+
+4. Run the app:
+   go run main.go
+
+5. Access the dashboard:
+   Open http://localhost:8080 in your browser
+
+6. Optional:
+   - Set `OPENAI_API_KEY` in your environment to enable real summaries.
+   - Create a Gmail App Password to enable PDF email sending.
